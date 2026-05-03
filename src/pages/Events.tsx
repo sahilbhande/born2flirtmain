@@ -40,45 +40,50 @@ const EVENTS = [
 const EventsPage = () => (
   <main>
     <Helmet>
+  {/* Primary SEO */}
   <title>
-    Indian Discord Events – Game Nights, Voice Chat & Giveaways | Born2Flirt
+    🔥 Daily Indian Discord Events – VC, Game Nights & Giveaways | Born2Flirt
   </title>
 
   <meta
     name="description"
-    content="Discover the best Indian Discord events including voice chat hangouts, game nights, giveaways, and community challenges. Join Born2Flirt and participate in daily Discord events in India."
+    content="Join daily Indian Discord events on Born2Flirt – voice chat (VC), game nights, giveaways & community challenges. Active 24/7 with thousands of members."
   />
 
   <link rel="canonical" href="https://born2flirt.in/events" />
 
+  {/* Keywords */}
+  <meta
+    name="keywords"
+    content="indian discord events, discord events india, daily discord events, discord vc events india, gaming discord events india, active discord server events, born2flirt events"
+  />
+
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="Indian Discord Events – Game Nights, VC & Giveaways"
+    content="🔥 Join Daily Discord Events in India – VC, Games & Giveaways"
   />
   <meta
     property="og:description"
-    content="Join active Discord events in India with voice chats, games, giveaways, and a lively community."
+    content="Active Discord events happening daily – voice chats, game nights & giveaways. Join now!"
   />
   <meta property="og:url" content="https://born2flirt.in/events" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/og-image.png" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Indian Discord Events – Join Game Nights & VC Hangouts"
+    content="Daily Indian Discord Events – Join VC & Game Nights"
   />
   <meta
     name="twitter:description"
-    content="Join daily Discord events in India including voice chats, games, and giveaways. Meet active members now."
+    content="Join active Discord events in India – voice chats, gaming & giveaways happening daily."
   />
+  <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
 
-  {/* Keywords (optional) */}
-  <meta
-    name="keywords"
-    content="Discord events India, Indian Discord events, Discord server events India, voice chat Discord India, gaming Discord events"
-  />
+  <meta name="robots" content="index, follow" />
 
   {/* Schema: WebPage */}
   <script type="application/ld+json">
@@ -88,18 +93,18 @@ const EventsPage = () => (
       name: "Indian Discord Events",
       url: "https://born2flirt.in/events",
       description:
-        "Join Indian Discord events including voice chat hangouts, game nights, giveaways, and community challenges.",
+        "Daily Indian Discord events including voice chat hangouts, game nights, giveaways, and community challenges.",
     })}
   </script>
 
-  {/* Schema: Event (Generic recurring community event) */}
+  {/* Schema: Event */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Event",
-      name: "Indian Discord Community Events",
+      name: "Daily Indian Discord Events",
       description:
-        "Online Discord events in India including gaming sessions, voice chat hangouts, giveaways, and community challenges.",
+        "Join daily Discord events including VC hangouts, gaming sessions, giveaways, and community challenges.",
       eventAttendanceMode:
         "https://schema.org/OnlineEventAttendanceMode",
       eventStatus: "https://schema.org/EventScheduled",
@@ -111,7 +116,7 @@ const EventsPage = () => (
     })}
   </script>
 
-  {/* Schema: FAQ (IMPORTANT for ranking) */}
+  {/* FAQ Schema */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
@@ -123,7 +128,7 @@ const EventsPage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Born2Flirt hosts Indian Discord events like game nights, voice chat hangouts, giveaways, and community challenges.",
+              "Born2Flirt hosts daily Indian Discord events including voice chat hangouts, game nights, giveaways, and community challenges.",
           },
         },
         {
@@ -132,7 +137,7 @@ const EventsPage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Events happen daily and weekly including voice chats, gaming sessions, and giveaways in this active Indian Discord server.",
+              "Events happen daily with active participation from thousands of members across India.",
           },
         },
         {
@@ -141,12 +146,36 @@ const EventsPage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Yes, all members can join Discord events and participate in voice chats, games, and community activities.",
+              "Yes, all members can join events, voice chats, games, and giveaways anytime.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are Discord events active daily in India?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes, Born2Flirt hosts daily active Discord events with voice chats, games, and community activities.",
           },
         },
       ],
     })}
   </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
 </Helmet>
     <section className="relative py-20">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.1),transparent_60%)]" />

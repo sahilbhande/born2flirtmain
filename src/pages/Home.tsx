@@ -69,91 +69,123 @@ const HomePage = () => {
   return (
     <main>
       <Helmet>
-        <title>
-          Best Indian Discord Server – Active Chat, VC, Dating | Born2Flirt
-        </title>
+  <title>
+    🔥 Best Indian Discord Server (20K+ Members) – Chat, VC & Events | Born2Flirt
+  </title>
 
-        <meta
-          name="description"
-          content="Join Born2Flirt, the best Indian Discord server for chat, voice calls (VC), dating, and community events. Meet new people and join one of the most active Discord servers in India."
-        />
+  <meta
+    name="description"
+    content="Join Born2Flirt – India’s most active Discord server with 20,000+ members. Chat, voice calls (VC), dating, gaming & daily events. Meet new people and start chatting now!"
+  />
 
-        <link rel="canonical" href="https://born2flirt.in/" />
+  <link rel="canonical" href="https://born2flirt.in/" />
 
-        {/* Open Graph */}
-        <meta
-          property="og:title"
-          content="Best Indian Discord Server – Chat, VC & Active Community"
-        />
-        <meta
-          property="og:description"
-          content="Join one of the most active Indian Discord servers with chat, voice calls, events, and a friendly community."
-        />
-        <meta property="og:url" content="https://born2flirt.in/" />
+  {/* Keywords (optional but fine to include) */}
+  <meta
+    name="keywords"
+    content="best indian discord server, indian discord server, discord server india, active indian discord server, indian chat server, indian vc server, indian dating discord, born2flirt discord, join indian discord server, discord servers india"
+  />
 
-        {/* Twitter */}
-        <meta name="twitter:title" content="Best Indian Discord Server" />
-        <meta
-          name="twitter:description"
-          content="Join an active Indian Discord community with chat, VC, and events."
-        />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What is the best Indian Discord server?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Born2Flirt is widely regarded as one of the best Indian Discord servers, known for its active community, daily voice chats (VC), fun events, and a friendly environment for members across India.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How to join an Indian Discord server?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "You can join an Indian Discord server by clicking the Join Born2Flirt button on this page. You’ll be redirected to Discord where you can accept the invite and start chatting in our active Indian Discord community.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Is Born2Flirt active?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, Born2Flirt is one of the most active Indian Discord servers, with thousands of members, 24/7 chat activity, voice calls (VC), regular events, and giveaways.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Is Born2Flirt a safe Discord server?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, Born2Flirt is a safe Indian Discord server with active moderators who ensure the community remains friendly, respectful, and welcoming for everyone.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What can I do in the Born2Flirt Discord server?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "In the Born2Flirt Indian Discord server, you can chat in active text channels, join voice chats (VC), participate in events, explore dating-friendly spaces, and meet new people from across India.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What is the best Indian dating Discord server?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Born2Flirt is one of the best Indian dating Discord servers, offering a friendly and active space where members can chat, connect, and build relationships.",
-                },
-              },
-            ],
-          })}
-        </script>
-      </Helmet>
+  {/* Open Graph (VERY IMPORTANT for CTR when shared) */}
+  <meta
+    property="og:title"
+    content="🔥 Join India’s Most Active Discord Server – 20K+ Members"
+  />
+  <meta
+    property="og:description"
+    content="Chat, voice calls, dating, gaming & daily events. Join Born2Flirt – India's fastest growing Discord community."
+  />
+  <meta property="og:url" content="https://born2flirt.in/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/preview.png" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="Best Indian Discord Server – 20K+ Members | Born2Flirt"
+  />
+  <meta
+    name="twitter:description"
+    content="Join India’s most active Discord server for chat, VC, dating & events."
+  />
+
+  {/* Extra SEO boost */}
+  <meta name="robots" content="index, follow" />
+
+  {/* FAQ Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is the best Indian Discord server?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Born2Flirt is one of the best Indian Discord servers with 20,000+ members, active chats, voice calls, and daily events.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How to join an Indian Discord server?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Click the Join button on Born2Flirt to instantly join one of the most active Discord communities in India.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Born2Flirt active?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Born2Flirt is highly active with 24/7 chat, voice calls (VC), events, and thousands of active Indian members.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Born2Flirt safe?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Born2Flirt has active moderation to keep the community safe, friendly, and welcoming.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What can I do in Born2Flirt?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "You can chat, join voice calls, participate in events, meet new people, and explore dating-friendly spaces.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the best Indian dating Discord server?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Born2Flirt is one of the top Indian dating Discord servers with an active and engaging community.",
+          },
+        },
+      ],
+    })}
+  </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
+</Helmet>
       {/* Hero */}
       <section className="relative overflow-hidden py-24 md:py-36">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.15),transparent_60%)]" />

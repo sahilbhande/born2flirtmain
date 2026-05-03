@@ -29,45 +29,50 @@ const VOTE_SITES = [
 const VotePage = () => (
   <main>
     <Helmet>
+  {/* Primary SEO */}
   <title>
-    Vote for Born2Flirt – Support the Best Indian Discord Server 🚀
+    🚀 Vote for Born2Flirt Daily – Get Rewards & Support India’s Top Discord Server
   </title>
 
   <meta
     name="description"
-    content="Vote for Born2Flirt on Top.gg, Disboard, and more. Support one of the most active Indian Discord servers, help us grow, and unlock rewards by voting daily."
+    content="Vote daily for Born2Flirt on Top.gg & Disboard. Earn rewards, boost rankings, and support India’s most active Discord server with 20K+ members."
   />
 
   <link rel="canonical" href="https://born2flirt.in/vote" />
 
+  {/* Keywords */}
+  <meta
+    name="keywords"
+    content="vote discord server india, vote born2flirt, top.gg vote server, discord server voting india, daily vote discord rewards"
+  />
+
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="Vote for Born2Flirt – Best Indian Discord Server"
+    content="🚀 Vote Daily & Earn Rewards – Born2Flirt Discord"
   />
   <meta
     property="og:description"
-    content="Support our Indian Discord community by voting daily on Top.gg and other platforms. Help us grow and unlock rewards."
+    content="Support Born2Flirt by voting daily. Unlock rewards and help grow India’s most active Discord server."
   />
   <meta property="og:url" content="https://born2flirt.in/vote" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/og-image.png" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Vote for Born2Flirt – Support & Earn Rewards"
+    content="Vote Born2Flirt Daily – Earn Rewards 🚀"
   />
   <meta
     name="twitter:description"
-    content="Vote daily for Born2Flirt on Discord server listing sites and help grow one of the most active Indian Discord communities."
+    content="Vote every 12–24 hours to support and unlock rewards in India’s top Discord server."
   />
+  <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
 
-  {/* Keywords (optional) */}
-  <meta
-    name="keywords"
-    content="vote Discord server India, vote Born2Flirt, best Indian Discord server vote, Top.gg vote India, Discord server voting"
-  />
+  <meta name="robots" content="index, follow" />
 
   {/* Schema: WebPage */}
   <script type="application/ld+json">
@@ -77,7 +82,7 @@ const VotePage = () => (
       name: "Vote for Born2Flirt",
       url: "https://born2flirt.in/vote",
       description:
-        "Vote for Born2Flirt on Discord server listing platforms like Top.gg and Disboard to support one of the most active Indian Discord servers.",
+        "Vote daily for Born2Flirt on Discord listing platforms and earn rewards while supporting one of India’s most active Discord communities.",
     })}
   </script>
 
@@ -88,15 +93,13 @@ const VotePage = () => (
       "@type": "Organization",
       name: "Born2Flirt",
       url: "https://born2flirt.in",
-      sameAs: [
-        "https://discord.gg/YOUR-LINK"
-      ],
+      sameAs: ["https://discord.gg/YOUR-LINK"],
       description:
-        "Born2Flirt is one of the most active Indian Discord servers with chat, voice channels, events, and a growing community.",
+        "Born2Flirt is a highly active Indian Discord server with chat, voice interaction, events, and community engagement.",
     })}
   </script>
 
-  {/* Schema: FAQ (IMPORTANT) */}
+  {/* FAQ Schema */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
@@ -108,7 +111,7 @@ const VotePage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Voting helps Born2Flirt rank higher on Discord server listing sites and attract more active members to the community.",
+              "Voting helps Born2Flirt rank higher on Discord listing platforms and rewards you with perks inside the server.",
           },
         },
         {
@@ -117,7 +120,16 @@ const VotePage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Most platforms allow voting every 12 to 24 hours. Voting daily helps the server grow faster.",
+              "You can vote every 12 to 24 hours depending on the platform to maximize rewards.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I get rewards for voting?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes, users can unlock rewards, perks, and recognition by voting daily.",
           },
         },
         {
@@ -126,12 +138,27 @@ const VotePage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "You can vote on Top.gg, Discord.me, Discords.com, and Disboard to support the server.",
+              "You can vote on Top.gg, Disboard, Discord.me, and other Discord listing platforms.",
           },
         },
       ],
     })}
   </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
 </Helmet>
     <section className="relative py-20">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.1),transparent_60%)]" />

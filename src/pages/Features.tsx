@@ -57,76 +57,92 @@ const FEATURES = [
 const FeaturesPage = () => (
   <main>
     <Helmet>
-      <title>
-        Born2Flirt Features – Best Indian Discord Server for Chat, Voice Chat &
-        Community
-      </title>
+  {/* Primary SEO */}
+  <title>
+    🚀 Best Discord Server Features (India) – VC, Events & Leveling | Born2Flirt
+  </title>
 
-      <meta
-        name="description"
-        content="Discover Born2Flirt, one of the best Indian Discord servers with active chat, voice channels, hybrid leveling system, events, giveaways, and a friendly community. Join 18,000+ members today."
-      />
+  <meta
+    name="description"
+    content="Explore Born2Flirt’s powerful Discord server features – active voice chats (VC), leveling system, events, giveaways & 20K+ members. Join India’s most active community."
+  />
 
-      <meta
-        name="keywords"
-        content="Indian Discord server, Discord server India, active Discord server, VC Discord server, chat Discord server, social Discord community, Born2Flirt"
-      />
+  <link rel="canonical" href="https://born2flirt.in/features" />
 
-      <link rel="canonical" href="https://born2flirt.in/features" />
+  {/* Keywords */}
+  <meta
+    name="keywords"
+    content="discord server features india, best discord server features, active discord server features, indian discord vc server, discord leveling system, discord events server, born2flirt features"
+  />
 
-      {/* Open Graph */}
-      <meta
-        property="og:title"
-        content="Born2Flirt – Best Indian Discord Server for Chat, Voice & Community"
-      />
-      <meta
-        property="og:description"
-        content="Join one of the most active Indian Discord servers with voice chat, events, leveling system, giveaways, and 18,000+ members."
-      />
-      <meta property="og:url" content="https://born2flirt.in/features" />
-      <meta property="og:type" content="website" />
+  {/* Open Graph */}
+  <meta
+    property="og:title"
+    content="🚀 Best Discord Server Features – VC, Events & Leveling"
+  />
+  <meta
+    property="og:description"
+    content="Discover powerful features – voice chat, leveling, events & giveaways in India’s most active Discord server."
+  />
+  <meta property="og:url" content="https://born2flirt.in/features" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/og-image.png" />
 
-      {/* Twitter */}
-      <meta
-        name="twitter:title"
-        content="Best Indian Discord Server – Born2Flirt"
-      />
-      <meta
-        name="twitter:description"
-        content="Active chat, voice channels, events, giveaways, and leveling system. Join Born2Flirt today."
-      />
-      <meta property="og:image" content="https://born2flirt.in/og-image.png" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          name: "Born2Flirt Features",
-          url: "https://born2flirt.in/features",
-          description:
-            "Explore features of Born2Flirt, one of the best Indian Discord servers with chat, voice channels, hybrid leveling system, events, and giveaways.",
-          inLanguage: "en",
-          isPartOf: {
-            "@type": "WebSite",
-            name: "Born2Flirt",
-            url: "https://born2flirt.in",
-          },
-        })}
-      </script>
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "Born2Flirt",
-          url: "https://born2flirt.in",
-          sameAs: ["https://discord.gg/yourlink"],
-          description:
-            "Born2Flirt is one of the most active Indian Discord servers focused on chat, voice interaction, and community engagement.",
-          areaServed: "India",
-        })}
-      </script>
-    </Helmet>
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="Best Discord Server Features – Born2Flirt"
+  />
+  <meta
+    name="twitter:description"
+    content="Active VC, leveling system, events & giveaways. Explore Born2Flirt features."
+  />
+  <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
+
+  <meta name="robots" content="index, follow" />
+
+  {/* Schema: WebPage */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Born2Flirt Features",
+      url: "https://born2flirt.in/features",
+      description:
+        "Explore features like voice chat, leveling system, events, and giveaways in one of India’s most active Discord servers.",
+    })}
+  </script>
+
+  {/* Schema: Organization */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Born2Flirt",
+      url: "https://born2flirt.in",
+      sameAs: ["https://discord.gg/yourlink"],
+      description:
+        "Born2Flirt is an active Indian Discord server offering chat, voice interaction, events, and community features.",
+      areaServed: "India",
+    })}
+  </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
+</Helmet>
     <section className="relative py-20">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.1),transparent_60%)]" />
       <div className="container relative">

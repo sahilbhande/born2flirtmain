@@ -4,6 +4,7 @@ import { MemberStatus, sortMembers, useDiscordStats } from "../hooks/useDiscordS
 import { Skeleton } from "@/components/ui/skeleton";
 import { LINKS } from "@/lib/constants";
 import { ExternalLink } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const STATUS_COLOR: Record<MemberStatus, string> = {
 online: "bg-green-500",
@@ -54,6 +55,104 @@ const visibleMembers = sortedMembers.slice(0, limit);
 const activeVoiceChannels = data?.voiceChannels?.filter(vc => vc.count > 0) ?? [];
 
 return ( <main className="py-16 md:py-20"> <div className="container max-w-5xl">
+  <Helmet>
+  <title>
+    Live Discord Activity – Online Members, Voice Channels | Born2Flirt
+  </title>
+
+  <meta
+    name="description"
+    content="See real-time Discord activity on Born2Flirt. View online members, active voice channels (VC), and live community engagement in one of the most active Indian Discord servers."
+  />
+
+  <link rel="canonical" href="https://born2flirt.in/live-activity" />
+
+  {/* Open Graph */}
+  <meta
+    property="og:title"
+    content="Live Discord Activity – Online Members & Voice Channels"
+  />
+  <meta
+    property="og:description"
+    content="Track live Discord activity on Born2Flirt. See who's online, active voice chats, and real-time community engagement."
+  />
+  <meta property="og:url" content="https://born2flirt.in/live-activity" />
+
+  {/* Twitter */}
+  <meta
+    name="twitter:title"
+    content="Live Discord Activity – Born2Flirt"
+  />
+  <meta
+    name="twitter:description"
+    content="View real-time Discord stats including online users and active voice channels in the Born2Flirt community."
+  />
+
+  {/* Schema (FAQ for SEO boost) */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Can I see live activity on a Discord server?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, the Born2Flirt live activity page shows real-time Discord data including online members, active voice channels, and community engagement.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How accurate is Discord live activity data?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The live activity data is fetched from Discord’s official widget API and reflects currently visible members and voice activity, though Discord may limit full visibility.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I see who is in voice channels?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, the live activity page displays active voice channels along with the number of members currently connected and their avatars.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How often does the data update?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The Born2Flirt live activity page refreshes automatically every few seconds to show near real-time Discord server activity.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What does the online count mean?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The online count represents the number of currently active users on the Discord server, including those chatting or in voice channels.",
+          },
+        },
+      ],
+    })}
+  </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
+</Helmet>
     {/* Header */}
     <header className="text-center mb-8">
       <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/40 bg-primary/5 text-primary text-xs font-medium mb-4">

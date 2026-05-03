@@ -6,47 +6,52 @@ import { POSTS } from "@/lib/post";
 const BlogIndex = () => (
   <main>
     <Helmet>
+  {/* Primary SEO */}
   <title>
-    Indian Discord Servers Blog (2026) – Guides, Tips & Best Communities 🇮🇳
+    🔥 Best Indian Discord Servers (2026) + Guides & Growth Tips | Blog
   </title>
 
   <meta
     name="description"
-    content="Explore the best blogs about Indian Discord servers, active communities, voice chat (VC), events, and tips to find and grow in Discord servers in India."
+    content="Discover the best Indian Discord servers, active communities, and growth tips. Learn how to find, join, and grow in Discord servers in India with guides, VC tips & events."
   />
 
   <link rel="canonical" href="https://born2flirt.in/blog" />
 
-  {/* Keywords (optional) */}
+  {/* Keywords */}
   <meta
     name="keywords"
-    content="Indian Discord servers blog, Discord India guides, active Discord servers India, Discord communities India, voice chat Discord India"
+    content="best indian discord servers, indian discord servers list, discord servers india, active discord servers india, discord server guides india, how to grow discord server india, indian discord community blog"
   />
 
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="Indian Discord Servers Blog – Guides & Community Tips"
+    content="🔥 Best Indian Discord Servers + Guides & Tips (2026)"
   />
   <meta
     property="og:description"
-    content="Discover blogs about Indian Discord servers, active communities, voice chat, events, and growth tips."
+    content="Explore top Indian Discord servers, active communities, VC tips, and growth strategies."
   />
   <meta property="og:url" content="https://born2flirt.in/blog" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/og-image.png" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Indian Discord Servers Blog (2026)"
+    content="Best Indian Discord Servers Blog (2026)"
   />
   <meta
     name="twitter:description"
-    content="Read blogs about Discord servers in India, active communities, voice chat, and growth strategies."
+    content="Find top Discord servers in India, guides, VC tips & growth strategies."
   />
+  <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
 
-  {/* 🧠 Schema: Blog */}
+  <meta name="robots" content="index, follow" />
+
+  {/* Schema: Blog */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
@@ -54,7 +59,7 @@ const BlogIndex = () => (
       name: "Indian Discord Servers Blog",
       url: "https://born2flirt.in/blog",
       description:
-        "Blog covering Indian Discord servers, communities, voice chat, events, and guides.",
+        "Guides, lists, and tips about Indian Discord servers, communities, voice chat, and growth.",
       publisher: {
         "@type": "Organization",
         name: "Born2Flirt",
@@ -66,7 +71,7 @@ const BlogIndex = () => (
     })}
   </script>
 
-  {/* 🧠 Schema: ItemList (blog list) */}
+  {/* Schema: ItemList */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
@@ -80,6 +85,21 @@ const BlogIndex = () => (
       })),
     })}
   </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
 </Helmet>
     <section className="relative py-20">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.1),transparent_60%)]" />

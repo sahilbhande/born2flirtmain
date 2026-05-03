@@ -12,6 +12,7 @@ const staticPages = [
   "/blog",
   "/top-indian-discord-servers",
   "/vote",
+  "/live-activity",
 ];
 
 const generateSitemap = () => {

@@ -6,84 +6,116 @@ import { Helmet } from "react-helmet-async";
 const AboutPage = () => (
   <main>
     <Helmet>
-      {/* Primary SEO */}
-      <title>
-        About Born2Flirt – Active Indian Discord Server for Chat, Voice & Dating
-      </title>
+  {/* Primary SEO */}
+  <title>
+    About Born2Flirt – India’s Most Active Discord Community (20K+ Members)
+  </title>
 
-      <meta
-        name="description"
-        content="Born2Flirt is an active Indian Discord server for chatting, voice calls, dating, and making friends online. Join a fast-growing Discord community in India with 24/7 active chats, events, and giveaways."
-      />
+  <meta
+    name="description"
+    content="Learn about Born2Flirt, India’s fastest-growing Discord server with 20,000+ members. Discover our community, voice chats, events, and how we connect people across India."
+  />
 
-      <link rel="canonical" href="https://born2flirt.in/about" />
+  <link rel="canonical" href="https://born2flirt.in/about" />
 
-      {/* Open Graph (for Discord, WhatsApp, Facebook) */}
-      <meta
-        property="og:title"
-        content="Born2Flirt – Active Indian Discord Server for Chat & Voice"
-      />
-      <meta
-        property="og:description"
-        content="Join Born2Flirt, one of the most active Discord servers in India. Chat, join voice calls, make friends, and enjoy daily events."
-      />
-      <meta property="og:url" content="https://born2flirt.in/about" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://born2flirt.in/og-image.png" />
+  {/* Keywords */}
+  <meta
+    name="keywords"
+    content="about born2flirt, indian discord community, best indian discord server, discord server india, active discord server india, indian chat community, indian vc server, born2flirt community"
+  />
 
-      {/* Twitter (X) */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="Born2Flirt – Indian Discord Server for Chat, VC & Dating"
-      />
-      <meta
-        name="twitter:description"
-        content="Active Indian Discord server with voice chats, dating, and events. Join Born2Flirt today and meet new people online."
-      />
-      <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
+  {/* Open Graph */}
+  <meta
+    property="og:title"
+    content="About Born2Flirt – 20K+ Member Indian Discord Community"
+  />
+  <meta
+    property="og:description"
+    content="Discover one of India’s most active Discord communities. Chat, voice calls, events & more."
+  />
+  <meta property="og:url" content="https://born2flirt.in/about" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/og-image.png" />
 
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: [
-            {
-              "@type": "Question",
-              name: "What is the best Indian Discord server?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Born2Flirt is one of the most active and fast-growing Discord servers in India with voice chats, events, and a friendly community.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Is Born2Flirt active?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Yes, Born2Flirt has active chats and voice channels running 24/7 with members from across India.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Can I join voice chat anytime?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Yes, voice chat channels are active throughout the day, allowing users to join conversations anytime.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Is Born2Flirt free to join?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Yes, Born2Flirt is completely free to join and participate in chats, voice calls, and events.",
-              },
-            },
-          ],
-        })}
-      </script>
-    </Helmet>
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="About Born2Flirt – Indian Discord Community"
+  />
+  <meta
+    name="twitter:description"
+    content="20K+ members, active chats, voice calls & events. Learn about Born2Flirt."
+  />
+  <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
+
+  <meta name="robots" content="index, follow" />
+
+  {/* FAQ Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is Born2Flirt?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Born2Flirt is one of the most active Indian Discord servers with over 20,000 members, offering chat, voice calls, and community events.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Born2Flirt active?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Born2Flirt is highly active with 24/7 chats, voice channels, and regular community events.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I join voice chat anytime?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, voice chat channels are active throughout the day, allowing members to join anytime.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Born2Flirt free to join?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Born2Flirt is completely free to join and participate in chats, voice calls, and events.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Who can join Born2Flirt?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Anyone looking to chat, make friends, or join an active Indian Discord community can join Born2Flirt.",
+          },
+        },
+      ],
+    })}
+  </script>
+  <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
+</Helmet>
     <section className="relative py-20">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.1),transparent_60%)]" />
       <div className="container relative max-w-3xl">

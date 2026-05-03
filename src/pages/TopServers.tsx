@@ -88,13 +88,14 @@ const SERVERS = [
 const TopServersPage = () => (
   <main>
     <Helmet>
+  {/* Primary SEO */}
   <title>
-    Top Indian Discord Servers (2026) – Best Active Chat, VC & Gaming Servers 🇮🇳
+    🔥 15 Best Indian Discord Servers (2026) – Active Chat, VC & Gaming
   </title>
 
   <meta
     name="description"
-    content="Explore the best Indian Discord servers in 2026. Discover active Discord servers in India for chat, voice chat (VC), gaming, and social communities. Join top communities like Born2Flirt."
+    content="Looking for the best Indian Discord servers? Discover 15+ active Discord servers in India for chat, voice chat (VC), gaming & events. Join top communities like Born2Flirt."
   />
 
   <link
@@ -102,51 +103,55 @@ const TopServersPage = () => (
     href="https://born2flirt.in/top-indian-discord-servers"
   />
 
+  {/* Keywords */}
+  <meta
+    name="keywords"
+    content="best indian discord servers, top indian discord servers, discord servers india list, active discord servers india, indian discord server list, discord india communities"
+  />
+
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="Top Indian Discord Servers 2026 – Best Active Communities"
+    content="🔥 15 Best Indian Discord Servers (2026)"
   />
   <meta
     property="og:description"
-    content="Find the most active Discord servers in India for chat, VC, gaming, and social communities."
+    content="Find the most active Discord servers in India for chat, VC, gaming & events."
   />
   <meta
     property="og:url"
     content="https://born2flirt.in/top-indian-discord-servers"
   />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://born2flirt.in/og-image.png" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Top Indian Discord Servers (2026)"
+    content="15 Best Indian Discord Servers (2026)"
   />
   <meta
     name="twitter:description"
-    content="Discover the best Indian Discord servers for chat, voice chat, gaming, and making friends online."
+    content="Explore top Discord servers in India for chatting, VC, gaming & making friends."
   />
+  <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
 
-  {/* Keywords (optional) */}
-  <meta
-    name="keywords"
-    content="top Indian Discord servers, best Discord servers India, active Discord server India, Indian Discord server list, Discord India communities"
-  />
+  <meta name="robots" content="index, follow" />
 
   {/* Schema: WebPage */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "Top Indian Discord Servers",
+      name: "Best Indian Discord Servers",
       url: "https://born2flirt.in/top-indian-discord-servers",
       description:
-        "A curated list of the best Indian Discord servers for chat, voice chat, gaming, and social communities.",
+        "List of the best and most active Indian Discord servers for chat, voice chat, gaming, and communities.",
     })}
   </script>
 
-  {/* Schema: ItemList (VERY IMPORTANT for ranking lists) */}
+  {/* Schema: ItemList */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
@@ -173,7 +178,7 @@ const TopServersPage = () => (
     })}
   </script>
 
-  {/* Schema: FAQ (if you add FAQ section) */}
+  {/* FAQ Schema */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
@@ -185,7 +190,16 @@ const TopServersPage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Some of the best Indian Discord servers include active communities like Born2Flirt where users can chat, join voice calls, and participate in events.",
+              "Some of the best Indian Discord servers include active communities like Born2Flirt, offering chat, voice calls, events, and gaming.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which is the most active Discord server in India?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Born2Flirt is one of the most active Indian Discord servers with thousands of members, daily events, and 24/7 voice chats.",
           },
         },
         {
@@ -194,12 +208,27 @@ const TopServersPage = () => (
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Click the invite link of the server and accept the invitation on Discord to join instantly.",
+              "Click the invite link of a Discord server and accept the invitation to join instantly.",
           },
         },
       ],
     })}
   </script>
+   <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Born2Flirt",
+  url: "https://born2flirt.in",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://born2flirt.in/logo.png"
+  },
+  sameAs: [
+    "https://discord.gg/b2f"
+  ]
+})}
+</script>
 </Helmet>
     <section className="relative py-20">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(270_70%_60%/0.1),transparent_60%)]" />
