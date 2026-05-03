@@ -186,6 +186,8 @@ const HomePage = () => {
   ]
 })}
 </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8863928175194663"
+     crossOrigin="anonymous"></script>
 </Helmet>
       {/* Hero */}
       <section className="relative overflow-hidden py-24 md:py-36">
