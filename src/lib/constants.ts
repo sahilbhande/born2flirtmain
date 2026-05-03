@@ -39,6 +39,7 @@ export const NAV_ITEMS = [
   { label: "Features", path: "/features" },
   { label: "Indian Discord Server", path: "/indian-discord-server" },
   { label: "Top Indian Servers", path: "/top-indian-discord-servers" },
+  { label: "Live Activity", path: "/live-activity" },
   { label: "Events", path: "/events" },
   { label: "Blog", path: "/blog" },
   { label: "Vote & Support", path: "/vote" },

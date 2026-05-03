@@ -7,6 +7,7 @@ import Blog, { BlogPost, POSTS } from "@/pages/Blog";
 import VotePage from "@/pages/Vote";
 import NotFound from "@/pages/NotFound";
 import IndianDiscordServerPage from "@/pages/IndianDiscordServer";
+import LiveActivity from "./pages/LiveActivity";
 /* generate static blog routes */
 const blogRoutes = POSTS.map((post) => ({
   path: `/blog/${post.slug}`,
@@ -20,6 +21,7 @@ export default [
   { path: "/top-indian-discord-servers", element: <TopServersPage /> },
   { path: "/events", element: <EventsPage /> },
   { path: "/indian-discord-server", element: <IndianDiscordServerPage /> },
+  { path: "/live-activity", element: <LiveActivity /> },
   /* blog index */
   { path: "/blog", element: <Blog /> },
 

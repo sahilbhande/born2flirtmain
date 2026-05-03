@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import LiveActivityPanel from "../components/LiveActivityPanel";
 
 const FEATURES = [
   {
@@ -52,9 +53,9 @@ const FEATURES = [
 ];
 
 const STATS = [
-  { value: "17500+", label: "Active Members" },
-  { value: "120+", label: "Daily Voice Chats" },
-  { value: "50+", label: "Events Hosted" },
+  { value: "20000+", label: "Active Server Members" },
+  { value: "700+", label: "Daily Messages Contributers" },
+  { value: "250+", label: "Daily Voice COntributers" },
 ];
 
 const VOTE_SITES = [
@@ -373,6 +374,9 @@ const HomePage = () => {
             ))}
           </div>
         </div>
+        <div className="mt-14 max-w-md mx-auto">
+            <LiveActivityPanel />
+          </div>
       </section>
 
       {/* Invite */}
