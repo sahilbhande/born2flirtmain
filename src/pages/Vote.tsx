@@ -2,6 +2,7 @@ import { LINKS } from "@/lib/constants";
 import { ThumbsUp, ExternalLink, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import FloatingLiveButton from "@/components/FloatingLiveButton";
 
 const VOTE_SITES = [
   {
@@ -274,6 +275,7 @@ The more we grow, the more events, giveaways, and active members we can bring to
         </div>
       </div>
     </section>
+    <FloatingLiveButton />
   </main>
 );
 

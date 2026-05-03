@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { POSTS } from "@/lib/post";
+import FloatingLiveButton from "@/components/FloatingLiveButton";
 
 
 const BlogIndex = () => (
@@ -284,6 +285,7 @@ const BlogPost = ({ slug }: { slug: string }) => {
           </div>
         </div>
       </article>
+      <FloatingLiveButton />
     </main>
   );
 };

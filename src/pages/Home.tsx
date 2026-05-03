@@ -13,6 +13,7 @@ import {
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import LiveActivityPanel from "../components/LiveActivityPanel";
+import FloatingLiveButton from "@/components/FloatingLiveButton";
 
 const FEATURES = [
   {
@@ -53,7 +54,7 @@ const FEATURES = [
 ];
 
 const STATS = [
-  { value: "20000+", label: "Active Server Members" },
+  { value: "21000+", label: "Active Server Members" },
   { value: "700+", label: "Daily Messages Contributers" },
   { value: "250+", label: "Daily Voice COntributers" },
 ];
@@ -513,6 +514,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      <FloatingLiveButton />
     </main>
   );
 };

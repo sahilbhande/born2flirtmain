@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import FloatingLiveButton from "@/components/FloatingLiveButton";
 
 const FEATURES = [
   {
@@ -205,6 +206,7 @@ const FeaturesPage = () => (
         </p>
       </div>
     </section>
+    <FloatingLiveButton />
   </main>
 );
 

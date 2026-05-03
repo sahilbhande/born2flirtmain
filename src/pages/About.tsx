@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { LINKS } from "@/lib/constants";
 import { ExternalLink } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import FloatingLiveButton from "@/components/FloatingLiveButton";
 
 const AboutPage = () => (
   <main>
@@ -307,6 +308,7 @@ const AboutPage = () => (
         </div>
       </section>
     </section>
+    <FloatingLiveButton />
   </main>
 );
 
