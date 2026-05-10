@@ -54,7 +54,7 @@ const FEATURES = [
 ];
 
 const STATS = [
-  { value: "21000+", label: "Active Server Members" },
+  { value: "22000+", label: "Active Server Members" },
   { value: "700+", label: "Daily Messages Contributers" },
   { value: "250+", label: "Daily Voice COntributers" },
 ];
