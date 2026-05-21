@@ -11,6 +11,7 @@ import { latenightdiscordserversindia } from "@/blogposts/late-night-discord-ser
 import { indiangamingdiscordservers } from "@/blogposts/indian-gaming-discord-servers";
 import { smalldiscordserversindia } from "@/blogposts/small-discord-servers-india";
 import { voicechatdiscordserversindia } from "@/blogposts/voice-chat-discord-india-social";
+import { bestIndianServers2026 } from "@/blogposts/best-indian-discord-servers-2026";
 export const POSTS = [
     {
         ...bestIndianServers,
@@ -35,4 +36,5 @@ export const POSTS = [
     { ...indiangamingdiscordservers },
     { ...smalldiscordserversindia },
     { ...voicechatdiscordserversindia },
+    { ...bestIndianServers2026 },
 ];
