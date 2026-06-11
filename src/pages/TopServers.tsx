@@ -11,10 +11,16 @@ const SERVERS = [
     link: LINKS.discord,
   },
   {
-    name: "⭐ Friends",
-    desc: "Friends is a highly active Indian Discord server for gaming, voice chats, and socializing. Members regularly join VC, play games, and connect with new people.",
+    name: "⭐ Lovebite",
+    desc: "Lovebite is a highly active Indian Dating & Social Discord server for making friends, voice chatting, gaming, matchmaking, and meeting new people. Join daily conversations, active VCs, fun events, and a welcoming community.",
     featured: true,
     link: LINKS.friends,
+  },
+  {
+    name: "Gossipers",
+    desc: "Gossipers is an active Indian Discord server for fun conversations, confessions, gossip, voice chats, and engaging community discussions..",
+    featured: true,
+    link: LINKS.gossipers,
   },
 
   {
@@ -54,6 +60,12 @@ const SERVERS = [
     link: LINKS.discordindia,
   },
   {
+    name: "Ishq ",
+    desc: "Ishq is an Indian social Discord server focused on chatting and community interactions.",
+    featured: false,
+    link: LINKS.ishq,
+  },
+  {
     name: "Love Cafe",
     desc: "Love Cafe is a chill Indian Discord server for voice chats, casual conversations, and meeting new people.",
     featured: false,
@@ -70,12 +82,6 @@ const SERVERS = [
     desc: "Hasrat is an Indian Discord server where members connect through chats, voice calls, and social interactions.",
     featured: false,
     link: LINKS.hasrat,
-  },
-  {
-    name: "Gossipers",
-    desc: "Gossipers is an active Indian Discord server for fun conversations, gossip, and engaging community chats.",
-    featured: false,
-    link: LINKS.gossipers,
   },
 ];
 

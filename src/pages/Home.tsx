@@ -54,9 +54,9 @@ const FEATURES = [
 ];
 
 const STATS = [
-  { value: "22000+", label: "Active Server Members" },
-  { value: "700+", label: "Daily Messages Contributers" },
-  { value: "250+", label: "Daily Voice COntributers" },
+  { value: "25000+", label: "Active Server Members" },
+  { value: "1400+", label: "Daily Messages Contributers" },
+  { value: "350+", label: "Daily Voice COntributers" },
 ];
 
 const VOTE_SITES = [
@@ -71,12 +71,12 @@ const HomePage = () => {
     <main>
       <Helmet>
   <title>
-    🔥 Best Indian Discord Server (20K+ Members) – Chat, VC & Events | Born2Flirt
+    🔥 Best Indian Discord Server (25K+ Members) – Chat, VC & Events | Born2Flirt
   </title>
 
   <meta
     name="description"
-    content="Join Born2Flirt – India’s most active Discord server with 20,000+ members. Chat, voice calls (VC), dating, gaming & daily events. Meet new people and start chatting now!"
+    content="Join Born2Flirt – India’s most active Discord server with 25,000+ members. Chat, voice calls (VC), dating, gaming & daily events. Meet new people and start chatting now!"
   />
 
   <link rel="canonical" href="https://born2flirt.in/" />
@@ -90,7 +90,7 @@ const HomePage = () => {
   {/* Open Graph (VERY IMPORTANT for CTR when shared) */}
   <meta
     property="og:title"
-    content="🔥 Join India’s Most Active Discord Server – 20K+ Members"
+    content="🔥 Join India’s Most Active Discord Server – 25K+ Members"
   />
   <meta
     property="og:description"
@@ -104,7 +104,7 @@ const HomePage = () => {
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Best Indian Discord Server – 20K+ Members | Born2Flirt"
+    content="Best Indian Discord Server – 25K+ Members | Born2Flirt"
   />
   <meta
     name="twitter:description"
@@ -125,7 +125,7 @@ const HomePage = () => {
           name: "What is the best Indian Discord server?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Born2Flirt is one of the best Indian Discord servers with 20,000+ members, active chats, voice calls, and daily events.",
+            text: "Born2Flirt is one of the best Indian Discord servers with 25,000+ members, active chats, voice calls, and daily events.",
           },
         },
         {

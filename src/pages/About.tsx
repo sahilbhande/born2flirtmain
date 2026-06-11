@@ -9,12 +9,12 @@ const AboutPage = () => (
     <Helmet>
   {/* Primary SEO */}
   <title>
-    About Born2Flirt – India’s Most Active Discord Community (20K+ Members)
+    About Born2Flirt – India’s Most Active Discord Community (25K+ Members)
   </title>
 
   <meta
     name="description"
-    content="Learn about Born2Flirt, India’s fastest-growing Discord server with 20,000+ members. Discover our community, voice chats, events, and how we connect people across India."
+    content="Learn about Born2Flirt, India’s fastest-growing Discord server with 25,000+ members. Discover our community, voice chats, events, and how we connect people across India."
   />
 
   <link rel="canonical" href="https://born2flirt.in/about" />
@@ -28,7 +28,7 @@ const AboutPage = () => (
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="About Born2Flirt – 20K+ Member Indian Discord Community"
+    content="About Born2Flirt – 25K+ Member Indian Discord Community"
   />
   <meta
     property="og:description"
@@ -46,7 +46,7 @@ const AboutPage = () => (
   />
   <meta
     name="twitter:description"
-    content="20K+ members, active chats, voice calls & events. Learn about Born2Flirt."
+    content="25K+ members, active chats, voice calls & events. Learn about Born2Flirt."
   />
   <meta name="twitter:image" content="https://born2flirt.in/og-image.png" />
 
@@ -63,7 +63,7 @@ const AboutPage = () => (
           name: "What is Born2Flirt?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Born2Flirt is one of the most active Indian Discord servers with over 20,000 members, offering chat, voice calls, and community events.",
+            text: "Born2Flirt is one of the most active Indian Discord servers with over 25,000 members, offering chat, voice calls, and community events.",
           },
         },
         {

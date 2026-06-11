@@ -156,7 +156,7 @@ const FeaturesPage = () => (
         </h1>
         <p className="text-center text-muted-foreground mb-14 max-w-xl mx-auto">
           Join one of the most active Indian Discord servers with daily voice
-          chats, events, giveaways, and a thriving community of 18,000+
+          chats, events, giveaways, and a thriving community of 25,000+
           members.{" "}
         </p>
         <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
@@ -180,7 +180,7 @@ const FeaturesPage = () => (
             Why Join Born2Flirt?
           </h2>
           <ul className="mb-6">
-            <li>18,000+ active members</li>
+            <li>25,000+ active members</li>
             <li>One of the fastest-growing Indian Discord servers</li>
             <li>Highly active voice chat community</li>
             <li>Thousands of messages and voice activity daily</li>

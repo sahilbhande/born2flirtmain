@@ -243,7 +243,7 @@ const IndianDiscordServerPage = () => {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mt-5 mb-8 italic">
-            22,000+ members already active — join the vibe now.
+            25,000+ members already active — join the vibe now.
           </p>
         </div>
       </section>
