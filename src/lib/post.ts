@@ -12,6 +12,11 @@ import { indiangamingdiscordservers } from "@/blogposts/indian-gaming-discord-se
 import { smalldiscordserversindia } from "@/blogposts/small-discord-servers-india";
 import { voicechatdiscordserversindia } from "@/blogposts/voice-chat-discord-india-social";
 import { bestIndianServers2026 } from "@/blogposts/best-indian-discord-servers-2026";
+import { b2fvsishqdiscordserver } from "@/blogposts/b2fvsishqdiscordserver";
+import { whyusersareswitchingtoborn2flirt } from "@/blogposts/whyusersareswitchingtoborn2flirt";
+import { born2flirtreviewfeatureseventscommunity } from "@/blogposts/born2flirtreviewfeatureseventscommunity";
+import {bestindianfriendshipdiscordservers} from "@/blogposts/bestindianfriendshipdiscordservers";
+import { mostactiveindiandiscordservers } from "@/blogposts/mostactiveindiandiscordservers";
 export const POSTS = [
     {
         ...bestIndianServers,
@@ -37,4 +42,9 @@ export const POSTS = [
     { ...smalldiscordserversindia },
     { ...voicechatdiscordserversindia },
     { ...bestIndianServers2026 },
+    { ...b2fvsishqdiscordserver },
+    { ...whyusersareswitchingtoborn2flirt },
+    { ...born2flirtreviewfeatureseventscommunity },
+    { ...bestindianfriendshipdiscordservers },
+    { ...mostactiveindiandiscordservers },
 ];
