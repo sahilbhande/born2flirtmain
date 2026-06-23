@@ -8,6 +8,8 @@ import VotePage from "@/pages/Vote";
 import NotFound from "@/pages/NotFound";
 import IndianDiscordServerPage from "@/pages/IndianDiscordServer";
 import LiveActivity from "./pages/LiveActivity";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 /* generate static blog routes */
 const blogRoutes = POSTS.map((post) => ({
   path: `/blog/${post.slug}`,
@@ -22,6 +24,8 @@ export default [
   { path: "/events", element: <EventsPage /> },
   { path: "/indian-discord-server", element: <IndianDiscordServerPage /> },
   { path: "/live-activity", element: <LiveActivity /> },
+  {path: "/privacy", element: <Privacy />},
+  {path: "/terms", element: <Terms />},
   /* blog index */
   { path: "/blog", element: <Blog /> },
 

@@ -13,6 +13,8 @@ const staticPages = [
   "/top-indian-discord-servers",
   "/vote",
   "/live-activity",
+  "/terms",
+  "/privacy"
 ];
 
 const generateSitemap = () => {

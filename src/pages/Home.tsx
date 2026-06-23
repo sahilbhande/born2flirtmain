@@ -56,7 +56,7 @@ const FEATURES = [
 const STATS = [
   { value: "25000+", label: "Active Server Members" },
   { value: "1400+", label: "Daily Messages Contributers" },
-  { value: "350+", label: "Daily Voice COntributers" },
+  { value: "350+", label: "Daily Voice Contributers" },
 ];
 
 const VOTE_SITES = [
